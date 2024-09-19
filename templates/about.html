@@ -1,0 +1,52 @@
+<!-- templates/about.html -->
+{% extends "base.html" %}
+
+{% block title %}About Us - My Website{% endblock %}
+
+{% block content %}
+<h1>About Us</h1>
+
+<section id="company-history">
+    <h2>Company History</h2>
+    <p>Founded in 2020, My Website has been at the forefront of technological innovation. We started as a small team of passionate developers and have since grown into a leading tech company. Our mission is to create high-quality software solutions that meet the needs of our diverse clientele.</p>
+    <p>Over the years, we have worked on numerous projects ranging from small business websites to large-scale enterprise applications. Our dedication to excellence and customer satisfaction has helped us build long-lasting relationships with our clients.</p>
+</section>
+
+<section id="mission-statement">
+    <h2>Mission Statement</h2>
+    <p>Our mission is to leverage technology to solve complex problems and deliver impactful solutions. We strive to be a trusted partner for businesses seeking innovative software solutions and exceptional customer service.</p>
+</section>
+
+<section id="our-team">
+    <h2>Our Team</h2>
+    <div class="team-member">
+        <img src="/static/images/doudou.jpg" alt="John Doe">
+        <h3>Miss Doreen Msacki</h3>
+        <p>CEO & Founder</p>
+        <p>Doreen is the visionary behind My Website. With over 15 years of experience in the tech industry, she leads the team with a focus on innovation and excellence.</p>
+    </div>
+    <div class="team-member">
+        <img src="/static/images/team_member2.jpg" alt="Jane Smith">
+        <h3>Kelvin Bahati</h3>
+        <p>Lead Developer</p>
+        <p>Kevoo is our lead developer with a knack for creating robust and scalable applications. His technical expertise and problem-solving skills are crucial to our project success.</p>
+    </div>
+    <div class="team-member">
+        <img src="/static/images/team_member3.jpg" alt="Emily Johnson">
+        <h3>Mrs Massey</h3>
+        <p>Project Manager</p>
+        <p>Emily ensures that all our projects are delivered on time and within scope. Her organizational skills and attention to detail keep our projects running smoothly.</p>
+    </div>
+</section>
+
+<section id="contact-info">
+    <h2>Contact Information</h2>
+    <p>If you have any questions or would like to get in touch with us, feel free to reach out:</p>
+    <ul>
+        <li>Email: <a href="mailto:info@mywebsite.com">info@mywebsite.com</a></li>
+        <li>Phone: +1 (555) 123-4567</li>
+        <li>Address: 123 Tech Street, Innovation City, TX 75001</li>
+    </ul>
+</section>
+
+{% endblock %}
